@@ -4,10 +4,10 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-
-public class laptop implements Computer {
+@Primary
+public class Desktop implements Computer {
 
     public void compile() {
-        System.out.println("Compiling the code...");
+        System.out.println("Compiling the code... from Desktop");
     }
 }
