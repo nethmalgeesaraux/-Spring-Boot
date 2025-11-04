@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Div {
- laptop laptop;
+ laptop laptop = new laptop();
 
 
 
